@@ -1,7 +1,6 @@
-testrepo
-========
+# testrepo
 
-はじめてのRepository
-
+## はじめてのRepository
 
 あれこれテストするためのリポジトリ
+
