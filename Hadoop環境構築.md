@@ -16,12 +16,13 @@ ResouceManagerのサーバ1台、データNode1台の最小構成で構築する
 #### マスタ
 ##### virtualhost上にcentos6(64bit)
 ##### java7(1.7.0_45)
-##### MySQLServer
+##### mysql-server(5.1)
+##### mysql-connector-java
 ##### Hadoop
-###### hadoop-hdfs-namenode 
-###### hadoop-hdfs-secondarynamenode
-###### hadoop-yarn-resourcemanager
-###### hadoop-mapreduce-historyserver
-###### hadoop-yarn-proxyserver
-###### hadoop-client
-
+###### 　hadoop-hdfs-namenode 
+###### 　hadoop-hdfs-secondarynamenode
+###### 　hadoop-yarn-resourcemanager
+######　 hadoop-mapreduce-historyserver
+###### 　hadoop-yarn-proxyserver
+###### 　hadoop-client
+##### impala-state-store
